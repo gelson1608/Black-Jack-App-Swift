@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6039729020A2463E002EF8CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6039728F20A2463E002EF8CB /* AppDelegate.swift */; };
+		6039729220A2463E002EF8CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6039729120A2463E002EF8CB /* ViewController.swift */; };
+		6039729520A2463E002EF8CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039729320A2463E002EF8CB /* Main.storyboard */; };
+		6039729720A2463E002EF8CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6039729620A2463E002EF8CB /* Assets.xcassets */; };
+		6039729A20A2463E002EF8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6039729820A2463E002EF8CB /* LaunchScreen.storyboard */; };
+		603972A520A2463E002EF8CB /* JackBlackAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603972A420A2463E002EF8CB /* JackBlackAppTests.swift */; };
+		603972B020A2463E002EF8CB /* JackBlackAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603972AF20A2463E002EF8CB /* JackBlackAppUITests.swift */; };
+		603972BE20A24D75002EF8CB /* BlackJackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603972BD20A24D75002EF8CB /* BlackJackManager.swift */; };
+		603972C020A26239002EF8CB /* CartaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603972BF20A26239002EF8CB /* CartaView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		603972A120A2463E002EF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6039728420A2463D002EF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6039728B20A2463D002EF8CB;
+			remoteInfo = JackBlackApp;
+		};
+		603972AC20A2463E002EF8CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6039728420A2463D002EF8CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6039728B20A2463D002EF8CB;
+			remoteInfo = JackBlackApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6039728C20A2463D002EF8CB /* JackBlackApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JackBlackApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6039728F20A2463E002EF8CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6039729120A2463E002EF8CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6039729420A2463E002EF8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6039729620A2463E002EF8CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6039729920A2463E002EF8CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6039729B20A2463E002EF8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603972A020A2463E002EF8CB /* JackBlackAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackBlackAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		603972A420A2463E002EF8CB /* JackBlackAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackBlackAppTests.swift; sourceTree = "<group>"; };
+		603972A620A2463E002EF8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603972AB20A2463E002EF8CB /* JackBlackAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JackBlackAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		603972AF20A2463E002EF8CB /* JackBlackAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackBlackAppUITests.swift; sourceTree = "<group>"; };
+		603972B120A2463E002EF8CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603972BD20A24D75002EF8CB /* BlackJackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackJackManager.swift; sourceTree = "<group>"; };
+		603972BF20A26239002EF8CB /* CartaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartaView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6039728920A2463D002EF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039729D20A2463E002EF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603972A820A2463E002EF8CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6039728320A2463D002EF8CB = {
+			isa = PBXGroup;
+			children = (
+				6039728E20A2463D002EF8CB /* JackBlackApp */,
+				603972A320A2463E002EF8CB /* JackBlackAppTests */,
+				603972AE20A2463E002EF8CB /* JackBlackAppUITests */,
+				6039728D20A2463D002EF8CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6039728D20A2463D002EF8CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6039728C20A2463D002EF8CB /* JackBlackApp.app */,
+				603972A020A2463E002EF8CB /* JackBlackAppTests.xctest */,
+				603972AB20A2463E002EF8CB /* JackBlackAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6039728E20A2463D002EF8CB /* JackBlackApp */ = {
+			isa = PBXGroup;
+			children = (
+				603972BD20A24D75002EF8CB /* BlackJackManager.swift */,
+				6039729120A2463E002EF8CB /* ViewController.swift */,
+				603972BF20A26239002EF8CB /* CartaView.swift */,
+				6039729320A2463E002EF8CB /* Main.storyboard */,
+				6039729620A2463E002EF8CB /* Assets.xcassets */,
+				6039729820A2463E002EF8CB /* LaunchScreen.storyboard */,
+				6039729B20A2463E002EF8CB /* Info.plist */,
+				6039728F20A2463E002EF8CB /* AppDelegate.swift */,
+			);
+			path = JackBlackApp;
+			sourceTree = "<group>";
+		};
+		603972A320A2463E002EF8CB /* JackBlackAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				603972A420A2463E002EF8CB /* JackBlackAppTests.swift */,
+				603972A620A2463E002EF8CB /* Info.plist */,
+			);
+			path = JackBlackAppTests;
+			sourceTree = "<group>";
+		};
+		603972AE20A2463E002EF8CB /* JackBlackAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				603972AF20A2463E002EF8CB /* JackBlackAppUITests.swift */,
+				603972B120A2463E002EF8CB /* Info.plist */,
+			);
+			path = JackBlackAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6039728B20A2463D002EF8CB /* JackBlackApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603972B420A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackApp" */;
+			buildPhases = (
+				6039728820A2463D002EF8CB /* Sources */,
+				6039728920A2463D002EF8CB /* Frameworks */,
+				6039728A20A2463D002EF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JackBlackApp;
+			productName = JackBlackApp;
+			productReference = 6039728C20A2463D002EF8CB /* JackBlackApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6039729F20A2463E002EF8CB /* JackBlackAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603972B720A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackAppTests" */;
+			buildPhases = (
+				6039729C20A2463E002EF8CB /* Sources */,
+				6039729D20A2463E002EF8CB /* Frameworks */,
+				6039729E20A2463E002EF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603972A220A2463E002EF8CB /* PBXTargetDependency */,
+			);
+			name = JackBlackAppTests;
+			productName = JackBlackAppTests;
+			productReference = 603972A020A2463E002EF8CB /* JackBlackAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		603972AA20A2463E002EF8CB /* JackBlackAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603972BA20A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackAppUITests" */;
+			buildPhases = (
+				603972A720A2463E002EF8CB /* Sources */,
+				603972A820A2463E002EF8CB /* Frameworks */,
+				603972A920A2463E002EF8CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603972AD20A2463E002EF8CB /* PBXTargetDependency */,
+			);
+			name = JackBlackAppUITests;
+			productName = JackBlackAppUITests;
+			productReference = 603972AB20A2463E002EF8CB /* JackBlackAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6039728420A2463D002EF8CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ULIMA;
+				TargetAttributes = {
+					6039728B20A2463D002EF8CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					6039729F20A2463E002EF8CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6039728B20A2463D002EF8CB;
+					};
+					603972AA20A2463E002EF8CB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6039728B20A2463D002EF8CB;
+					};
+				};
+			};
+			buildConfigurationList = 6039728720A2463D002EF8CB /* Build configuration list for PBXProject "JackBlackApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6039728320A2463D002EF8CB;
+			productRefGroup = 6039728D20A2463D002EF8CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6039728B20A2463D002EF8CB /* JackBlackApp */,
+				6039729F20A2463E002EF8CB /* JackBlackAppTests */,
+				603972AA20A2463E002EF8CB /* JackBlackAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6039728A20A2463D002EF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6039729A20A2463E002EF8CB /* LaunchScreen.storyboard in Resources */,
+				6039729720A2463E002EF8CB /* Assets.xcassets in Resources */,
+				6039729520A2463E002EF8CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039729E20A2463E002EF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603972A920A2463E002EF8CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6039728820A2463D002EF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603972C020A26239002EF8CB /* CartaView.swift in Sources */,
+				603972BE20A24D75002EF8CB /* BlackJackManager.swift in Sources */,
+				6039729220A2463E002EF8CB /* ViewController.swift in Sources */,
+				6039729020A2463E002EF8CB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6039729C20A2463E002EF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603972A520A2463E002EF8CB /* JackBlackAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603972A720A2463E002EF8CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603972B020A2463E002EF8CB /* JackBlackAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		603972A220A2463E002EF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6039728B20A2463D002EF8CB /* JackBlackApp */;
+			targetProxy = 603972A120A2463E002EF8CB /* PBXContainerItemProxy */;
+		};
+		603972AD20A2463E002EF8CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6039728B20A2463D002EF8CB /* JackBlackApp */;
+			targetProxy = 603972AC20A2463E002EF8CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6039729320A2463E002EF8CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6039729420A2463E002EF8CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6039729820A2463E002EF8CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6039729920A2463E002EF8CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		603972B220A2463E002EF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		603972B320A2463E002EF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		603972B520A2463E002EF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		603972B620A2463E002EF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		603972B820A2463E002EF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackBlackApp.app/JackBlackApp";
+			};
+			name = Debug;
+		};
+		603972B920A2463E002EF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JackBlackApp.app/JackBlackApp";
+			};
+			name = Release;
+		};
+		603972BB20A2463E002EF8CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JackBlackApp;
+			};
+			name = Debug;
+		};
+		603972BC20A2463E002EF8CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JackBlackAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UL.JackBlackAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JackBlackApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6039728720A2463D002EF8CB /* Build configuration list for PBXProject "JackBlackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603972B220A2463E002EF8CB /* Debug */,
+				603972B320A2463E002EF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603972B420A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603972B520A2463E002EF8CB /* Debug */,
+				603972B620A2463E002EF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603972B720A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603972B820A2463E002EF8CB /* Debug */,
+				603972B920A2463E002EF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603972BA20A2463E002EF8CB /* Build configuration list for PBXNativeTarget "JackBlackAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603972BB20A2463E002EF8CB /* Debug */,
+				603972BC20A2463E002EF8CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6039728420A2463D002EF8CB /* Project object */;
+}
